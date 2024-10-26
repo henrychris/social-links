@@ -101,7 +101,14 @@ body {
 
 .card-user-info {
     text-align: center;
-	line-height: 1.5;
+    line-height: 1.5;
+
+    margin-bottom: 10px;
+}
+
+.card-user-profile-summary {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 li {
