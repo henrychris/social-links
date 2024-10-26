@@ -17,11 +17,47 @@
   ========================================
 */
 :root {
-    --white: hsl(0, 0%, 100%);
-    --green: hsl(75, 94%, 57%);
-    --grey-700: hsl(0, 0%, 20%);
-    --grey-800: hsl(0, 0%, 12%);
-    --grey-900: hsl(0, 0%, 8%);
+    /* Amber & Greys
+    --text-color: hsl(0, 0%, 100%);
+    --hover: #f59e0b;
+    --social-link-item: #3c3c3c;
+    --card-background: #1f1f1f;
+    --page-background: #0f0f0f;
+     
+    */
+
+    /* Light Grey & Blue
+
+    --text-color: hsl(0, 0%, 0%);
+    --hover: #3b82f6;
+
+    --social-link-item: #9ca3af;
+    --card-background: #e5e7eb;
+    --page-background: #f3f4f6;
+    */
+
+    /* Earth & Green
+    --text-color: hsl(0, 0%, 0%);
+    --hover: #22C55E;
+
+    --social-link-item: #A68A6D;
+    --card-background: #D9D2C5;
+    --page-background: #F0ECE3; */
+
+    /* Neon?
+    --text-color: hsl(0, 0%, 100%);
+    --hover: #0ef5a8;
+
+    --social-link-item: #454769;
+    --card-background: #282a4f; */
+    --page-background: #1a1b41;
+
+    --text-color: hsl(0, 0%, 100%);
+    --hover: #0ef5a8;
+
+    --social-link-item: #454769;
+    --card-background: #282a4f;
+    --page-background: #1a1b41;
 }
 
 /*
@@ -37,25 +73,25 @@ html {
 .header-text {
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--white);
+    color: var(--text-color);
 }
 
 .location-text {
     font-size: 0.67rem;
     font-weight: 600;
-    color: var(--green);
+    color: var(--hover);
 }
 
 .summary-text {
     font-size: 0.6rem;
     font-weight: 400;
-    color: var(--white);
+    color: var(--text-color);
 }
 
 .social-link-text {
     font-size: 0.6rem;
     font-weight: 600;
-    color: var(--white);
+    color: var(--text-color);
 }
 
 /*
@@ -71,7 +107,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: var(--grey-900);
+    background-color: var(--page-background);
 }
 
 .card {
@@ -82,7 +118,7 @@ body {
     padding: 24px;
     border-radius: 9px;
 
-    background-color: var(--grey-800);
+    background-color: var(--card-background);
 }
 
 .card-profile-photo {
@@ -113,7 +149,7 @@ body {
 .social-link-item {
     text-align: center;
     text-decoration: none;
-    background-color: var(--grey-700);
+    background-color: var(--social-link-item);
 
     border-radius: 3px;
     margin-bottom: 0.5rem;
@@ -124,5 +160,5 @@ body {
 }
 
 .social-link-item:hover {
-    background-color: var(--green);
+    background-color: var(--hover);
 }
