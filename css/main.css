@@ -55,9 +55,9 @@ html {
 }
 
 .social-link-text {
-    font-size: 0.875rem;
+    font-size: 0.6rem;
     font-weight: 600;
-    color: var(--white); /* place color here or in list item? */
+    color: var(--white);
 }
 
 /*
@@ -80,6 +80,7 @@ body {
     max-width: 375px;
     height: fit-content;
 
+    margin: 20px;
     padding: 24px;
     border-radius: 9px;
 
@@ -111,6 +112,18 @@ body {
     margin-bottom: 10px;
 }
 
-li {
+.social-link-item {
+    text-align: center;
     background-color: var(--grey-700);
+
+    border-radius: 3px;
+    margin: 8px 0;
+
+    padding: 4%;
+}
+
+.social-link-item a {
+    text-decoration: none;
+    color: var(--white);
+    display: inline-block;
 }
