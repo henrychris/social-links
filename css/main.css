@@ -37,13 +37,13 @@ html {
 }
 
 .header-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--white);
 }
 
 .location-text {
-    font-size: 0.875rem;
+    font-size: 0.67rem;
     font-weight: 600;
     color: var(--green);
 }
@@ -97,6 +97,11 @@ body {
 
     max-width: 45%;
     margin-bottom: 20px;
+}
+
+.card-user-info {
+    text-align: center;
+	line-height: 1.5;
 }
 
 li {
