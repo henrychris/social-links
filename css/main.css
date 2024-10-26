@@ -45,7 +45,7 @@ html {
 .location-text {
     font-size: 0.875rem;
     font-weight: 600;
-	color: var(--green);
+    color: var(--green);
 }
 
 .summary-text {
@@ -57,7 +57,7 @@ html {
 .social-link-text {
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--white);
+    color: var(--white); /* place color here or in list item? */
 }
 
 /*
@@ -72,8 +72,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: var(--grey-900);
 }
 
 .card {
     max-width: 375px;
+
+    background-color: var(--grey-800);
+}
+
+li {
+    background-color: var(--grey-700);
 }
