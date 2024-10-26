@@ -38,3 +38,6 @@ Users should be able to:
 - Flexbox
 
 ### What I learned
+
+- Use `border radius` of `50%` to make an image circle.
+- Add `target="_blank"` to anchor tag to open a link in a new tab.
