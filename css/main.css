@@ -17,41 +17,6 @@
   ========================================
 */
 :root {
-    /* Amber & Greys
-    --text-color: hsl(0, 0%, 100%);
-    --hover: #f59e0b;
-    --social-link-item: #3c3c3c;
-    --card-background: #1f1f1f;
-    --page-background: #0f0f0f;
-     
-    */
-
-    /* Light Grey & Blue
-
-    --text-color: hsl(0, 0%, 0%);
-    --hover: #3b82f6;
-
-    --social-link-item: #9ca3af;
-    --card-background: #e5e7eb;
-    --page-background: #f3f4f6;
-    */
-
-    /* Earth & Green
-    --text-color: hsl(0, 0%, 0%);
-    --hover: #22C55E;
-
-    --social-link-item: #A68A6D;
-    --card-background: #D9D2C5;
-    --page-background: #F0ECE3; */
-
-    /* Neon?
-    --text-color: hsl(0, 0%, 100%);
-    --hover: #0ef5a8;
-
-    --social-link-item: #454769;
-    --card-background: #282a4f; */
-    --page-background: #1a1b41;
-
     --text-color: hsl(0, 0%, 100%);
     --hover: #0ef5a8;
 
