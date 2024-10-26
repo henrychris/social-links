@@ -1,0 +1,41 @@
+/*
+  ========================================
+  SETUP
+  ========================================
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /*browser specific */
+    -webkit-box-sizing: border-box; /* browser specific */
+}
+
+/*
+  ========================================
+  VARIABLES
+  ========================================
+*/
+:root {
+    --white: #ffffff;
+}
+
+/*
+  ========================================
+  TYPOGRAPHY
+  ========================================
+*/
+
+/*
+  ========================================
+  STYLES
+  ========================================
+*/
+
+body {
+    height: 100vh; /* the height of the current screen */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
