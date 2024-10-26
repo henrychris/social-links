@@ -54,7 +54,7 @@ html {
 }
 
 .social-link-text {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: var(--text-color);
 }
@@ -76,7 +76,7 @@ body {
 }
 
 .card {
-    max-width: 375px;
+    max-width: 320px;
     height: fit-content;
 
     margin: 20px;
@@ -88,14 +88,13 @@ body {
 
 .card-profile-photo {
     display: flex;
-
     justify-content: center;
 }
 
 .card-profile-photo img {
     border-radius: 50%;
 
-    max-width: 45%;
+    max-width: 35%;
     margin-bottom: 20px;
 }
 
