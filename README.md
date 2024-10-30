@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/social-links-page-using-html-and-css-GZGePq1ASL)
 - Live Site URL:  [GitHub Pages](https://henrychris.github.io/social-links/)
 
 ## My process
